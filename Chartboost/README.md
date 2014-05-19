@@ -24,7 +24,9 @@ Integrating Chartboost takes two easy steps:
         - (void)applicationDidBecomeActive:(UIApplication *)application        
             
             // initialize the Chartboost library
-            [Chartboost startWithAppId:@"YOUR_CHARTBOOST_APP_ID" appSignature:@"YOUR_CHARTBOOST_APP_SIGNATURE" delegate:self];
+            [Chartboost startWithAppId:@"YOUR_CHARTBOOST_APP_ID" 
+            			  appSignature:@"YOUR_CHARTBOOST_APP_SIGNATURE" 
+            			      delegate:self];
               
             // Show an interstitial ad    
             [[Chartboost sharedChartboost] showInterstitial:CBLocationHomeScreen];

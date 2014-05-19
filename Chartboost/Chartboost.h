@@ -71,7 +71,7 @@ extern CBLocation const CBLocationQuit; /** Screen display right before the play
 - (void)showInterstitial:(CBLocation)location;
 
 /// check if a more apps page is already cached
-- (void)hasCachedMoreApps:(CBLocation)location;
+- (BOOL)hasCachedMoreApps:(CBLocation)location;
 
 /// show the more apps page
 - (void)showMoreApps:(CBLocation)location;
