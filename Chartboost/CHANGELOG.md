@@ -1,5 +1,8 @@
 ###Changelog
 
+##### v4.4.1
+- Chartboost now supports x86_64 architectures (64 bit simulator)
+
 ##### v4.4
 
 - New MoreApps: Location support, new look and feel, custom headers
